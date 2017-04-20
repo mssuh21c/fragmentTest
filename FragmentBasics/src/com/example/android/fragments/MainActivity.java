@@ -28,6 +28,8 @@ public class MainActivity extends FragmentActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.news_articles);
 
+        // one line is added ...
+
         // Check whether the activity is using the layout version with
         // the fragment_container FrameLayout. If so, we must add the first fragment
         if (findViewById(R.id.fragment_container) != null) {
