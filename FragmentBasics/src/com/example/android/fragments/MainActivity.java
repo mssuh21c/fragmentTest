@@ -28,7 +28,9 @@ public class MainActivity extends FragmentActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.news_articles);
 
+        // added more but it is still source directory , gen 디렠토리는 서버에 올라가지 않는구나
         // one line is added ...
+
 
         // Check whether the activity is using the layout version with
         // the fragment_container FrameLayout. If so, we must add the first fragment
